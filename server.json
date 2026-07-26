@@ -1,0 +1,57 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.hitsteps/analytics-operations",
+  "title": "Hitsteps Analytics and Operations",
+  "description": "AI access to Hitsteps analytics, live visitors, uptime, goals, alerts, and chats.",
+  "version": "1.1.0",
+  "websiteUrl": "https://www.hitsteps.com/",
+  "repository": {
+    "url": "https://github.com/Hitsteps/MCP",
+    "source": "github"
+  },
+  "icons": [
+    {
+      "src": "https://www.hitsteps.com/favicon.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "600x600"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.hitsteps.com/mcp/"
+    }
+  ],
+  "_meta": {
+    "io.modelcontextprotocol.registry/publisher-provided": {
+      "publisher": "Hitsteps",
+      "documentation": "https://www.hitsteps.com/plugin/?type=mcp",
+      "keywords": [
+        "analytics",
+        "web analytics",
+        "live visitors",
+        "uptime",
+        "alerts",
+        "goals",
+        "chat",
+        "operations"
+      ],
+      "examples": [
+        {
+          "name": "Summarize recent traffic",
+          "description": "Review visitors, referrers, campaigns, top pages, and realtime activity."
+        },
+        {
+          "name": "Check website operations",
+          "description": "Inspect uptime monitors, goals, alerts, tracking health, and site settings."
+        },
+        {
+          "name": "Follow up on live chats",
+          "description": "Work with authorized Hitsteps chat activity through approved tool calls."
+        }
+      ]
+    }
+  }
+}
